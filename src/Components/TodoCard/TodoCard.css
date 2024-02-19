@@ -1,0 +1,37 @@
+#EditTodoDescription,
+#EditTodoName {
+  display: block;
+}
+.todoCard * {
+  margin-bottom: 10px;
+}
+.buttonStyle {
+  display: flex;
+  gap: 10px;
+}
+.todoCard {
+  background-color: #97e197;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 0px 0px 20px;
+  border-radius: 16px;
+}
+.todoInfo {
+  color: white;
+}
+.error {
+  font-size: 14px;
+  color: red;
+  display: block !important;
+}
+.buttonproperty {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid;
+  color: white;
+  width: 75px;
+}

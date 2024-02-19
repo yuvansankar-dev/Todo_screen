@@ -1,0 +1,25 @@
+.AddTodo > input {
+  border-color: #2a792a;
+  border-style: solid;
+}
+.AddTodo > button {
+  background-color: #2a792a;
+  border: 0px;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 20px;
+}
+.AddTodo > button:hover {
+  background-color: #40a940;
+}
+.AddTodo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.AddTodo > * {
+  margin: 10px 15px;
+}
+.AddTodo + * {
+  margin: 0px 15px;
+  color: red;
+}
